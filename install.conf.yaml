@@ -9,3 +9,4 @@
 - link:
     ~/.config/nvim/init.vim: nvim/init.vim
     ~/.config/nvim/lua/auto_complete.lua: nvim/lua/auto_complete.lua
+    ~/.tmux.conf: tmux.conf
