@@ -1,5 +1,10 @@
+- defaults:
+    link:
+      relink: true
+      create: true
+      force: true
+
 - clean: ['~']
 
 - link:
-
-
+    ~/.config/nvim/init.vim: init.vim
