@@ -7,6 +7,7 @@
 - clean: ['~']
 
 - link:
+    ~/.vimrc: vim/vimrc
     ~/.config/nvim/init.vim: nvim/init.vim
     ~/.config/nvim/lua/auto_complete.lua: nvim/lua/auto_complete.lua
     ~/.tmux.conf: tmux/tmux.conf
