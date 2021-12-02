@@ -20,7 +20,7 @@ setopt appendhistory
 export PATH=/opt/homebrew/bin:$PATH
 
 # Fzy finder alias
-alias vf='vim $(find . -type f | fzy)'
+alias vf='nvim $(find . -type f | fzy)'
 alias f='ls -l $(find . -type f | fzy)'
 
 # Git related aliases
