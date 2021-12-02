@@ -43,6 +43,7 @@ set expandtab
 set softtabstop=2
 set shiftwidth=2
 set termguicolors
+set relativenumber
 
 " Fix tmux changing colors
 set background=dark
