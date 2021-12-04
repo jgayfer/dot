@@ -60,6 +60,9 @@ highlight ColorColumn ctermbg=0 guibg=#3c3836
 colorscheme gruvbox
 let g:lightline = {'colorscheme': 'gruvbox'}
 
+" Fzf shortcut
+nnoremap <leader>e :FZF<CR>
+
 " Lua scripts
 lua require('auto_complete')
 lua require('rust-tools').setup({})
