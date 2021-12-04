@@ -63,6 +63,9 @@ let g:lightline = {'colorscheme': 'gruvbox'}
 " Fzf shortcut
 nnoremap <leader>e :FZF<CR>
 
+" noh - no highlight
+map <esc> :noh <CR>
+
 " Lua scripts
 lua require('auto_complete')
 lua require('rust-tools').setup({})
