@@ -15,7 +15,6 @@
 *.dmg
 *.gz
 *.iso
-*.jar
 *.rar
 *.tar
 *.zip
@@ -52,5 +51,5 @@ tags
 .envrc
 apollo.pem
 .idea/*
-.gradle/*
 build
+.gradle
