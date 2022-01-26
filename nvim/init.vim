@@ -10,16 +10,10 @@ Plug 'morhetz/gruvbox'
 Plug 'sheerun/vim-polyglot'
 Plug 'christoomey/vim-tmux-navigator'
 
-" LSP
-Plug 'neovim/nvim-lspconfig'
-
 " Autocomplete
 Plug 'neovim/nvim-lspconfig'
-Plug 'hrsh7th/cmp-nvim-lsp'
-Plug 'hrsh7th/cmp-buffer'
-Plug 'hrsh7th/cmp-path'
-Plug 'hrsh7th/cmp-cmdline'
 Plug 'hrsh7th/nvim-cmp'
+Plug 'hrsh7th/cmp-nvim-lsp'
 Plug 'hrsh7th/cmp-vsnip'
 Plug 'hrsh7th/vim-vsnip'
 
@@ -68,4 +62,4 @@ map <esc> :noh <CR>
 
 " Lua scripts
 lua require('auto_complete')
-lua require('rust-tools').setup({})
+lua require('rust')
