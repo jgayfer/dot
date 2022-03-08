@@ -63,7 +63,16 @@ highlight ColorColumn ctermbg=0 guibg=#3c3836
 
 " Color scheme
 colorscheme gruvbox
-let g:lightline = {'colorscheme': 'gruvbox'}
+let g:lightline = {
+      \ 'colorscheme': 'gruvbox',
+      \ 'active': {
+      \   'left': [ [ 'mode', 'paste' ],
+      \             [ 'gitbranch', 'readonly', 'relativepath', 'modified' ] ]
+      \ },
+      \ 'component_function': {
+      \   'gitbranch': 'FugitiveHead'
+      \ },
+      \ }
 
 " Fzf shortcut
 nnoremap <leader>e :FZF<CR>
