@@ -81,7 +81,7 @@ nnoremap <leader>e :FZF<CR>
 map <esc> :noh <CR>
 
 " <leader>s for Rg search
-noremap <leader>s :Rg
+nnoremap <leader>s :Rg<CR>
 let g:fzf_layout = { 'down': '~20%' }
 command! -bang -nargs=* Rg
   \ call fzf#vim#grep(
