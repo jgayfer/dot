@@ -83,3 +83,4 @@ map <esc> :noh <CR>
 " Lua scripts
 lua require('auto_complete')
 lua require('rust')
+lua require('lsp_config')

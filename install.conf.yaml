@@ -11,6 +11,7 @@
     ~/.config/nvim/init.vim: nvim/init.vim
     ~/.config/nvim/lua/auto_complete.lua: nvim/lua/auto_complete.lua
     ~/.config/nvim/lua/rust.lua: nvim/lua/rust.lua
+    ~/.config/nvim/lua/lsp_config.lua: nvim/lua/lsp_config.lua
     ~/.tmux.conf: tmux/tmux.conf
     ~/.gitconfig: git/gitconfig
     ~/.gitignore.global: git/gitignore.global
