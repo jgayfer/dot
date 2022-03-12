@@ -35,3 +35,16 @@ for _, lsp in pairs(servers) do
     }
   }
 end
+
+-- Setup rust-tools
+require('rust-tools').setup({
+  server = {
+    on_attach = on_attach,
+  },
+	tools = {
+		inlay_hints = {
+			only_current_line = true,
+			only_current_line_autocmd = "CursorMoved"
+		}
+	}
+})

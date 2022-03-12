@@ -92,5 +92,4 @@ command! -bang -nargs=* Rg
 
 " Lua scripts
 lua require('auto_complete')
-lua require('rust')
 lua require('lsp_config')
