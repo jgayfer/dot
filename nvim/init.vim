@@ -19,7 +19,6 @@ Plug 'tpope/vim-fugitive'
 Plug 'tpope/vim-commentary'
 Plug 'morhetz/gruvbox'
 Plug 'sheerun/vim-polyglot'
-Plug 'christoomey/vim-tmux-navigator'
 
 " Autocomplete
 Plug 'neovim/nvim-lspconfig'
