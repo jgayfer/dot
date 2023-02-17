@@ -26,3 +26,4 @@
     - rust-analyzer
     - tmux
     - wget
+    - jq
