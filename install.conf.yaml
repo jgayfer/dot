@@ -16,6 +16,7 @@
     ~/.gitignore.global: git/gitignore.global
     ~/.zshrc: zsh/zshrc
     ~/.bundle/config: bundler/config
+    ~/.config/pgcli/config: pgcli/config
 
 - create:
     - ~/Development
