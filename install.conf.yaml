@@ -18,6 +18,7 @@
     ~/.bundle/config: bundler/config
     ~/.config/pgcli/config: pgcli/config
     ~/.config/helix/config.toml: helix/config.toml
+    ~/.wezterm.lua: wezterm/wezterm.lua
 
 - create:
     - ~/Development
