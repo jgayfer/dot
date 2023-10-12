@@ -16,6 +16,6 @@
   helper = cache --timeout=3600
 [user]
 	name = James Gayfer
-	email = gayfer.james@gmail.com
+	email = 10660608+jgayfer@users.noreply.github.com
 [includeIf "gitdir:~/Work/"]
   path = ~/Work/.gitconfig
