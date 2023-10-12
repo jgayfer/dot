@@ -21,6 +21,7 @@
     ~/.wezterm.lua: wezterm/wezterm.lua
     ~/Library/Application Support/nushell/config.nu: nushell/config.nu
     ~/Library/Application Support/nushell/env.nu: nushell/env.nu
+    ~/.config/zellij/config.kdl: zellij/config.kdl
 
 - create:
     - ~/Development
