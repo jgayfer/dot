@@ -11,6 +11,7 @@ if wezterm.config_builder then
 end
 
 -- This is where you actually apply your config choices
+config.hide_tab_bar_if_only_one_tab = true
 
 -- Use nushell
 config.default_prog = { os.getenv('HOME') .. '/.cargo/bin/nu' }
