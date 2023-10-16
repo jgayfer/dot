@@ -39,6 +39,8 @@ alias be='bundle exec'
 alias ctags="`brew --prefix`/bin/ctags"
 alias ctags >> ~/.bashrc
 
+eval "$(starship init zsh)"
+
 # asdf
 . /opt/homebrew/opt/asdf/libexec/asdf.sh
 
