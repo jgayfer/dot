@@ -13,10 +13,7 @@ end
 -- This is where you actually apply your config choices
 config.hide_tab_bar_if_only_one_tab = true
 
--- Use nushell
-config.default_prog = { os.getenv('HOME') .. '/.cargo/bin/nu' }
-
--- For example, changing the color scheme:
+config.default_prog = { 'zsh' }
 config.color_scheme = 'Gruvbox Dark (Gogh)'
 config.font_size = 13
 
