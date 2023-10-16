@@ -32,17 +32,7 @@ function gbpurge () {
   git remote prune origin
 }
 
-# Bundler
-alias be='bundle exec'
-
-# Override default ctags
-alias ctags="`brew --prefix`/bin/ctags"
-alias ctags >> ~/.bashrc
-
 eval "$(starship init zsh)"
-
-# asdf
-. /opt/homebrew/opt/asdf/libexec/asdf.sh
 
 #THIS MUST BE AT THE END OF THE FILE FOR SDKMAN TO WORK!!!
 export SDKMAN_DIR="$HOME/.sdkman"
