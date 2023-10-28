@@ -1,4 +1,1 @@
 theme="gruvbox"
-
-[editor.lsp]
-display-inlay-hints=true
