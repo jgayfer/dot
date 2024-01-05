@@ -16,6 +16,9 @@ HISTSIZE=1000000000
 SAVEHIST=1000000000
 setopt appendhistory
 
+# Use Helix for psql editor
+export export PSQL_EDITOR=hx
+
 # Brew
 export PATH=/opt/homebrew/bin:$PATH
 
