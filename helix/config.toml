@@ -14,3 +14,9 @@ hidden = false
 
 [editor.lsp]
 display-messages = true
+
+[keys.normal]
+";" = "command_mode"
+
+[keys.insert]
+j = { k = "normal_mode" }
