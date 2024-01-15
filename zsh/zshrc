@@ -4,6 +4,7 @@ zplug "plugins/git", from:oh-my-zsh
 zplug "plugins/dotenv", from:oh-my-zsh
 zplug "zsh-users/zsh-autosuggestions"
 zplug "jeffreytse/zsh-vi-mode"
+zplug "zsh-users/zsh-syntax-highlighting"
 
 if ! zplug check --verbose; then
     printf "Install? [y/N]: "
