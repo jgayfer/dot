@@ -5,12 +5,12 @@ ZSH_THEME="robbyrussell"
 plugins=(
   dotenv
   git
-  vi-mode
 )
 
 source $ZSH/oh-my-zsh.sh
 
 source ~/.zsh/zsh-autosuggestions/zsh-autosuggestions.zsh
+source ~/.zsh/zsh-vi-mode/zsh-vi-mode.plugin.zsh
 
 # Save history
 HISTFILE=~/.zsh_history
