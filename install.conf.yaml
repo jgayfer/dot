@@ -26,11 +26,3 @@
 
 - create:
     - ~/Development
-
-- brew:
-    - neovim
-    - ripgrep
-    - rust-analyzer
-    - tmux
-    - wget
-    - jq
