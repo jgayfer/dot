@@ -20,9 +20,6 @@
     ~/.wezterm.lua: wezterm/wezterm.lua
     ~/.config/zellij/config.kdl: zellij/config.kdl
     ~/.zshrc: zsh/zshrc
-    ~/.zsh/:
-        path: zsh/plugins/**
-        glob: true
 
 - create:
     - ~/Development

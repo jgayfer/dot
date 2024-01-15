@@ -1,16 +1,18 @@
-export ZSH=$HOME/.oh-my-zsh
-ZSH_THEME="robbyrussell"
+source ~/.zplug/init.zsh
 
-# Oh-My-Zsh Plugins
-plugins=(
-  dotenv
-  git
-)
+zplug "plugins/git", from:oh-my-zsh
+zplug "plugins/dotenv", from:oh-my-zsh
+zplug "zsh-users/zsh-autosuggestions"
+zplug "jeffreytse/zsh-vi-mode"
 
-source $ZSH/oh-my-zsh.sh
+if ! zplug check --verbose; then
+    printf "Install? [y/N]: "
+    if read -q; then
+        echo; zplug install
+    fi
+fi
 
-source ~/.zsh/zsh-autosuggestions/zsh-autosuggestions.zsh
-source ~/.zsh/zsh-vi-mode/zsh-vi-mode.plugin.zsh
+zplug load
 
 # Save history
 HISTFILE=~/.zsh_history
