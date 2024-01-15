@@ -1,6 +1,6 @@
 scroll_buffer_size 100000
 
-default_shell "/usr/bin/zsh"
+default_shell "zsh"
 
 mouse_mode false
 
