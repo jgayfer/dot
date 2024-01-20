@@ -34,6 +34,9 @@ setopt appendhistory
 # Use Helix for psql editor
 export export PSQL_EDITOR=hx
 
+# asdf
+. "$HOME/.asdf/asdf.sh"
+
 # Brew
 export PATH=/opt/homebrew/bin:$PATH
 
