@@ -5,6 +5,7 @@ zplug "plugins/dotenv", from:oh-my-zsh
 zplug "zsh-users/zsh-autosuggestions"
 zplug "jeffreytse/zsh-vi-mode"
 zplug "zsh-users/zsh-syntax-highlighting"
+zplug "zsh-users/zsh-history-substring-search"
 
 if ! zplug check --verbose; then
     printf "Install? [y/N]: "
@@ -14,6 +15,15 @@ if ! zplug check --verbose; then
 fi
 
 zplug load
+
+# Zsh settings
+setopt autocd
+
+# History substring search binds
+bindkey '^[[A' history-substring-search-up
+bindkey '^[[B' history-substring-search-down
+bindkey -M vicmd 'k' history-substring-search-up
+bindkey -M vicmd 'j' history-substring-search-down
 
 # Save history
 HISTFILE=~/.zsh_history
