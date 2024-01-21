@@ -50,6 +50,7 @@ keybinds clear-defaults=true {
         bind "f" { ToggleFocusFullscreen; SwitchToMode "normal"; }
         bind "w" { ToggleFloatingPanes; SwitchToMode "normal"; }
         bind "e" { TogglePaneEmbedOrFloating; SwitchToMode "normal"; }
+        bind "Enter" { SwitchToMode "normal"; }
     }
     resize {
         bind "h" { Resize "Left"; }
