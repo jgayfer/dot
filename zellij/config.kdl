@@ -1,6 +1,6 @@
 scroll_buffer_size 100000
 
-default_shell "zsh"
+default_shell "fish"
 
 mouse_mode false
 
