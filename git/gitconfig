@@ -13,6 +13,7 @@
   a = "!f() { git add $(git ls-files -m | fzy); git status -s; }; f"
   ad = "!f() { git add $(git ls-files -m | xargs -n 1 dirname | uniq | fzy); git status -s; }; f"
   cof = "!f() { git checkout $(git branch | fzy); }; f"
+  r = "!f() { git restore $(git diff --name-only -u | fzy); git status -s; }; f"
   rs = "!f() { git restore --staged $(git diff --name-only --cached | fzy); git status -s; }; f"
   rsd = "!f() { git restore --staged $(git diff --name-only --cached | xargs -n 1 dirname | uniq | fzy); git status -s; }; f"
 [core]
