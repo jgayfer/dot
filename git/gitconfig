@@ -1,8 +1,19 @@
 [alias]
   lg = log --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit --date=relative
-  diff-changes = diff --name-status -r
-  diff-staged = diff --cached
-  diff-stat = diff --stat --ignore-space-change -r
+  lgm = log --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit --date=relative master..HEAD
+  c = commit
+  d = diff
+  dc = diff --cached
+  ds = diff --stat --ignore-space-change -r
+  dcs = ds --cached
+  s = status -s
+  co = checkout
+  rbi = rebase -i
+  a = "!f() { git add $(git ls-files -m | fzy); git status -s; }; f"
+  ad = "!f() { git add $(git ls-files -m | xargs -n 1 dirname | uniq | fzy); git status -s; }; f"
+  cof = "!f() { git checkout $(git branch | fzy); }; f"
+  rs = "!f() { git restore --staged $(git diff --name-only --cached | fzy); git status -s; }; f"
+  rsd = "!f() { git restore --staged $(git diff --name-only --cached | xargs -n 1 dirname | uniq | fzy); git status -s; }; f"
 [core]
   editor = hx
   excludesfile = ~/.gitignore.global
