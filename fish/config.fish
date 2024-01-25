@@ -10,5 +10,7 @@ if status is-interactive
 
     # Auto source ENV
     direnv hook fish | source
+
+    set -gx EDITOR "hx"
 end
 
