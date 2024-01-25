@@ -12,5 +12,8 @@ if status is-interactive
     direnv hook fish | source
 
     set -gx EDITOR "hx"
+
+    # PATH
+    fish_add_path $HOME/.cargo/bin
 end
 
