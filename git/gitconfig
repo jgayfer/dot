@@ -6,6 +6,7 @@
   dc = diff --cached
   ds = diff --stat --ignore-space-change -r
   dcs = ds --cached
+  df = "!f() { git diff $(git diff --name-only -u | fzy); }; f"
   s = status -s
   co = checkout
   rbi = rebase -i
