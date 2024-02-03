@@ -1,5 +1,9 @@
 if status is-interactive
 
+    # PATH
+    fish_add_path $HOME/.cargo/bin
+    fish_add_path /opt/homebrew/bin
+
     # Prompt
     starship init fish | source
 
@@ -12,8 +16,5 @@ if status is-interactive
     direnv hook fish | source
 
     set -gx EDITOR "hx"
-
-    # PATH
-    fish_add_path $HOME/.cargo/bin
 end
 
