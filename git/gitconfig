@@ -10,8 +10,10 @@
   s = status -s
   co = checkout
   rbi = rebase -i
+  rb = rebase
   rhh = reset --hard
   rbif = "!f() { git rebase -i $(git branch | fzy); }; f"
+  rbf = "!f() { git rebase $(git branch | fzy); }; f"
   a = "!f() { git add $(git ls-files -m | fzy); git status -s; }; f"
   ad = "!f() { git add $(git ls-files -m | xargs -n 1 dirname | uniq | fzy); git status -s; }; f"
   cof = "!f() { git checkout $(git branch | fzy); }; f"
