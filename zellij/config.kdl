@@ -7,7 +7,7 @@ pane_frames false
 
 scrollback_editor "hx"
 
-theme "gruvbox-dark"
+theme "rose-pine-moon"
 
 session_serialization false
 
