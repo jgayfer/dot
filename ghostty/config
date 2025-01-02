@@ -1,1 +1,11 @@
 theme = GruvboxDark
+
+macos-option-as-alt = true
+
+keybind = alt+w>k=goto_split:top
+keybind = alt+w>j=goto_split:bottom
+keybind = alt+w>h=goto_split:left
+keybind = alt+w>l=goto_split:right
+
+keybind = alt+o=next_tab
+keybind = alt+i=previous_tab
