@@ -6,7 +6,7 @@ mouse_mode false
 
 scrollback_editor "hx"
 
-theme "rose-pine-dawn"
+theme "gruvbox-dark"
 
 session_serialization false
 
