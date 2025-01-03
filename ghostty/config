@@ -1,11 +1,23 @@
 theme = GruvboxDark
 
 macos-option-as-alt = true
+macos-titlebar-proxy-icon = hidden
 
+keybind = alt+p=toggle_quick_terminal
+keybind = alt+y=jump_to_prompt:-1
+
+keybind = alt+n=new_split:auto
+keybind = alt+u=close_surface
 keybind = alt+w>k=goto_split:top
 keybind = alt+w>j=goto_split:bottom
 keybind = alt+w>h=goto_split:left
 keybind = alt+w>l=goto_split:right
 
+keybind = alt+t=new_tab
 keybind = alt+o=next_tab
 keybind = alt+i=previous_tab
+
+keybind = alt+shift+j=scroll_page_lines:2
+keybind = alt+shift+k=scroll_page_lines:-2
+keybind = alt+shift+l=scroll_page_up
+keybind = alt+shift+h=scroll_page_down
