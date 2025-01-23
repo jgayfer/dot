@@ -3,6 +3,10 @@ theme="gruvbox"
 [editor]
 line-number = "relative"
 mouse = false
+end-of-line-diagnostics = "hint"
+
+[editor.inline-diagnostics]
+cursor-line = "hint"
 
 [editor.cursor-shape]
 insert = "bar"
