@@ -12,6 +12,7 @@
     ~/.bundle/config: bundler/config
     ~/.config/pgcli/config: pgcli/config
     ~/.config/helix/config.toml: helix/config.toml
+    ~/.config/helix/languages.toml: helix/languages.toml
     ~/.wezterm.lua: wezterm/wezterm.lua
     ~/.config/zellij/config.kdl: zellij/config.kdl
     ~/.config/zellij/themes: zellij/themes
