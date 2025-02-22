@@ -2,7 +2,6 @@ theme="gruvbox"
 
 [editor]
 line-number = "relative"
-mouse = false
 
 [editor.inline-diagnostics]
 cursor-line = "hint"
