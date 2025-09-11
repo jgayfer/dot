@@ -2,6 +2,7 @@ theme="gruvbox"
 
 [editor]
 line-number = "relative"
+scroll-lines = 1
 
 [editor.inline-diagnostics]
 cursor-line = "hint"
@@ -19,6 +20,3 @@ display-messages = true
 
 [keys.normal]
 ";" = "command_mode"
-
-[keys.insert]
-j = { k = "normal_mode" }
